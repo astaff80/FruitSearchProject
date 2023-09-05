@@ -11,13 +11,13 @@ body {
 }
 
 input {
- /* TODO */
+  
 }
 
 .search-container {
- /* TODO */
+  
 }
-.search-container input,
+.search-container input, 
 .search-container .suggestions {
   /* TODO */
 }
@@ -29,7 +29,7 @@ input {
 }
 
 ul {
-  /* TODO */
+  
 }
 ul.has-suggestions {
   /* TODO */
