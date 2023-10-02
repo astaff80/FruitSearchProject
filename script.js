@@ -63,5 +63,16 @@ function useSuggestion(e) {
 	showSuggestions([choice]);
 }
 
+function hover(e) {
+	for(n of suggestions.children) { 
+		n.classList.remove("highlight");
+		n.classList.add("unhighlight");
+	}
+	//console.log(e.target.innerText);
+	e.target.classList.remove("unhighlight");
+	e.target.classList.add("highlight");
+}
+
 input.addEventListener('keyup', searchHandler);
 suggestions.addEventListener('click', useSuggestion);
+suggestions.addEventListener('mouseover', hover);
